@@ -14,3 +14,5 @@ Nothing yet
 + CSS/SASS (Basic)
 + Tilda
 + Figma 
+## Language:
+English level – Begginer
