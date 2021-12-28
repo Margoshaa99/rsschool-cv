@@ -7,3 +7,10 @@
 I want to develop and master new skills. I work well in a team.I want to learn Front-End Development in RSSchool!
 ## Work experience:
 Nothing yet
+## Education
++ **University**: Ulyanovsk State Pedagogical University named after I. N. Ulyanov
+## Skills
++ HTML (Basic)
++ CSS/SASS (Basic)
++ Tilda
++ Figma 
