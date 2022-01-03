@@ -25,12 +25,12 @@ html {
     scroll-behavior: smooth;
 }
 .nav-list {
+html{
     list-style: none;
 }
 .nav-link {
     padding: 0 20px;
-    line-height: 50px
-;
+    line-height: 50px;
 }
 .nav-link {
     transition: .3s;
@@ -43,6 +43,18 @@ html {
 }
 .section-item a:hover {
     color: #418547;
+    line-height: 50px;
+}
+.nav-link {
+    transition: .3s;
+}
+.selection-item a {
+    color: #527052;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.selection-item a:hover {
+    color: #726113;
 }
 .main-container {
     display: flex;
@@ -68,6 +80,13 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
+    color: #726113;
+}
+.selection-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
     color: #418547;
 }
 .link {
@@ -77,6 +96,15 @@ body {
 }
 .link:hover {
     color: #b459a5;
+    color: #527052;
+}
+.link {
+    text-decoration: none;
+    color: #527052;
+    transition: color o.5s;
+}
+.link:hover {
+    color: #527052;
 }
 .rss {
     width: 121px;
@@ -90,6 +118,15 @@ body {
     padding-left: 30px;
 }
 .section-item::before {
+    background: url("./img.photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.selection-item {
+    position: relative;
+    padding-left: 30px;
+    }
+.selection-item::before {
     content: "";
     position: absolute;
     top: 8px;
@@ -99,3 +136,4 @@ body {
     border: 1px solid #b459a5;
     border-radius: 50%;
 }
+
